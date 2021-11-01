@@ -2,6 +2,8 @@ import 'package:adaptive_responsive/single_column.dart';
 import 'package:adaptive_responsive/single_row.dart';
 import 'package:flutter/material.dart';
 
+import 'responsive_classroom.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -9,7 +11,7 @@ void main() {
 class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-    return SingleRow(); //SingleColumn();
+    return ResponsiveClassRoom(); //SingleRow(); //SingleColumn();
   }
 }
 
